@@ -12,7 +12,7 @@
 <body>
 <div id="navigation">
 <h2>Baby Rental Gear</h2>
-<div class="cart">
+<div id="cart">
 <i class="bi bi-bag-check"></i>
 <!-- <i class="bi bi-cart4"></i> -->
 <div class="Amount">0</div>
@@ -23,118 +23,126 @@
 <div class="item">
 <img width ="200" src="https://m.media-amazon.com/images/I/61rzmQgiOPS._SL1202_.jpg" alt="">
 <div class="details">
-<h3>Fancy Stroller</h3>
+<h3 class="product-name">Fancy Stroller</h3>
 <p>Special occasion, shopping, walking,</p>
 <div class="prquanr">
-<h2>$ 100</h2>
+<h2 class="product-price">$ 100</h2>
 <div class="btn"></div>
-<button  onclick="decrement()">−</button>
+<button  onclick="decrement(event)">−</button>
 <input id=field type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1583445978-best-strollers-e-priam-electronic-stroller-1583445956.jpg" alt="">
 <div class="details">
-<h3>Electronic Stroller</h3>
+<h3 class="product-name">Electronic Stroller</h3>
 <p>Can be used for any occassion</p>
 <div class="prquanr">
-<h2>$ 90</h2>
+<h2 class="product-price">$ 90</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field1 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="https://images.ctfassets.net/50gzycvace50/9a161d80e4e7bb9935bb8e11584f2863e28ffc20cb631a1ddea6b242b68bfda8/4594045c1e1e1194036b34bd9e61293e/9a161d80e4e7bb9935bb8e11584f2863e28ffc20cb631a1ddea6b242b68bfda8.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=620&h=620" alt="">
 <div class="details">
-<h3>Newborn Stroller</h3>
+<h3 class="product-name">Newborn Stroller</h3>
 <p>Protection against the sun very comfortable</p>
 <div class="prquanr">
-<h2>$ 80</h2>
+<h2 class="product-price">$ 80</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field2 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="https://cdn.shopify.com/s/files/1/0115/4436/3089/products/ss76c81a.jpg?v=1600812697" alt="">
 <div class="details">
-<h3>Fancy Stroller</h3>
+<h3 class="product-name">Fancy Stroller</h3>
 <p>Happy to be a part of your travelling journey</p>
 <div class="prquanr">
-<h2>$ 75</h2>
+<h2 class="product-price">$ 75</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field3 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="http://images.lowes.com/product/converted/100294/1002944344_16095623.jpg" alt="">
 <div class="details">
-<h3>Girly Crib</h3>
+<h3 class="product-name">Girly Crib</h3>
 <p>Very pretty and comfortable</p>
 <div class="prquanr">
-<h2>$ 55</h2>
+<h2 class="product-price">$ 55</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field4 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="https://cdn.shopify.com/s/files/1/1101/4990/products/20170228035127-e2df31fe_1400x.jpg?v=1646694518" alt="">
 <div class="details">
-<h3>Stylish Crib</h3>
+<h3 class="product-name">Stylish Crib</h3>
 <p>Feels like home</p>
 <div class="prquanr">
-<h2>$ 50</h2>
+<h2 class="product-price">$ 50</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field5 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="https://bestbaby.gr/wp-content/uploads/2021/06/2703.jpg" alt="">
 <div class="details">
-<h3>Crib with extra storage</h3>
+<h3 class="product-name">Crib with extra storage</h3>
 <p>Very comfortable</p>
 <div class="prquanr">
-<h2>$ 45</h2>
+<h2 class="product-price">$ 45</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field6 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 <div class="item">
 <img width ="200" src="https://i5.walmartimages.com/asr/daa6a627-c1b3-4f9a-b27d-31c7b7407489.292fd522775ed6d43e711c866c8f51c0.jpeg" alt="">
 <div class="details">
-<h3>White Soho Crib</h3>
+<h3 class="product-name">White Soho Crib</h3>
 <p>Can be used for any occassion</p>
 <div class="prquanr">
-<h2>$ 40</h2>
+<h2 class="product-price">$ 40</h2>
 <div class="btn"></div>
-<button onclick="decrement()">−</button>
+<button onclick="decrement(event)">−</button>
 <input id=field7 type=number min=1 max=10>
-<button onclick="increment()">+</button>
+<button onclick="increment(event)">+</button>
+<button class="add">Add</button>
 </div>
 </div>
 </div>
 
 </div>
 </body>
-<script src="db.json"></script>
+
 <script src="main.js"></script>
 </html>
